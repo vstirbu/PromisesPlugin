@@ -1,0 +1,22 @@
+<plugin
+  xmlns="http://www.phonegap.com/ns/plugins/1.0"
+  id="com.vladstirbu.cordova.promise"
+  version="1.0.0">
+
+  <name>Promise</name>
+  <author>Vlad Stirbu</author>
+  <license>MIT</license>
+  <keywords>es6-promise,polyfill</keywords>
+
+  <description>
+    A polyfill for ES6-style Promises, tracking npm es6-promise
+  </description>
+
+  <engines>
+    <engine name="cordova" version=">=3.0.0" />
+  </engines>
+
+  <js-module src="www/promise.js" name="Promise">
+    <clobbers target="Promise" />
+  </js-module>
+</plugin>
