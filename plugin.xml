@@ -19,4 +19,7 @@
   <js-module src="www/promise.js" name="Promise">
     <clobbers target="Promise" />
   </js-module>
+  
+  <platform name="ios"></platform>
+  <platform name="android"></platform>
 </plugin>
