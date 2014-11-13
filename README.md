@@ -30,6 +30,8 @@ $ cordova plugins add {yourPlugin}
 
 This is all. ```window.Promise``` is available for use in your plugin.
 
+The plugin is available also in PhoneGap [Build](https://build.phonegap.com/plugins/1248).
+
 # Credits
 
 This plugin wraps [es6-promise](https://github.com/jakearchibald/es6-promise) in a Cordova/PhoneGap friendly way.
