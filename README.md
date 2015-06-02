@@ -24,8 +24,8 @@ Cordova CLI takes care to install PromisesPlugin automatically:
 ```
 $ cordova plugins add {yourPlugin}
 
-> Installing "{youtPlugin}" for {platform}
-> Installing "com.vladstirbu.cordova.promise" for {platfrom}
+> Installing "{yourPlugin}" for {platform}
+> Installing "com.vladstirbu.cordova.promise" for {platform}
 ```
 
 This is all. ```window.Promise``` is available for use in your plugin.
