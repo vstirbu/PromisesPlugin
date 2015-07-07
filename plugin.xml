@@ -1,7 +1,7 @@
 <plugin
   xmlns="http://www.phonegap.com/ns/plugins/1.0"
-  id="com.vladstirbu.cordova.promise"
-  version="1.0.0">
+  id="es6-promise-plugin"
+  version="2.3.0">
 
   <name>Promise</name>
   <author>Vlad Stirbu</author>
@@ -19,7 +19,7 @@
   <js-module src="www/promise.js" name="Promise">
     <clobbers target="Promise" />
   </js-module>
-  
+
   <platform name="ios"></platform>
   <platform name="android"></platform>
 </plugin>

@@ -14,7 +14,7 @@ Configure your plugin's plugin.xml by adding this dependency:
 
 ```
 <dependency
-  id="com.vladstirbu.cordova.promise"
+  id="es6-promise-plugin"
   url="https://github.com/vstirbu/PromisesPlugin.git">
 </dependency>
 ```
@@ -25,12 +25,10 @@ Cordova CLI takes care to install PromisesPlugin automatically:
 $ cordova plugins add {yourPlugin}
 
 > Installing "{yourPlugin}" for {platform}
-> Installing "com.vladstirbu.cordova.promise" for {platform}
+> Installing "es6-promise-plugin" for {platform}
 ```
 
 This is all. ```window.Promise``` is available for use in your plugin.
-
-The plugin is available also in PhoneGap [Build](https://build.phonegap.com/plugins/1248).
 
 # Credits
 

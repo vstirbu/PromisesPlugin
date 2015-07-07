@@ -1,23 +1,25 @@
 {
-  "name": "promises-plugins",
-  "version": "1.0.0",
+  "name": "es6-promise-plugin",
+  "version": "2.3.0",
   "description": "ES6-Promises polyfill for Cordova/PhoneGap",
-  "main": "index.js",
+  "main": "www/promise.js",
   "dependencies": {
+  },
+  "devDependencies": {
     "es6-promise": "^2.3.0"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "./build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gengen1988/PromisesPlugin.git"
+    "url": "git+https://github.com/vstirbu/PromisesPlugin.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gengen1988/PromisesPlugin/issues"
+    "url": "https://github.com/vstirbu/PromisesPlugin/issues"
   },
-  "homepage": "https://github.com/gengen1988/PromisesPlugin#readme"
+  "homepage": "https://github.com/vstirbu/PromisesPlugin#readme",
+  "ecosystem": "cordova"
 }
