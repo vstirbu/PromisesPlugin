@@ -10,7 +10,7 @@ cat > www/promise.js << EOL
  * @copyright Copyright (c) 2014 Yehuda Katz, Tom Dale, Stefan Penner and contributors (Conversion to ES6 API by Jake Archibald)
  * @license   Licensed under MIT license
  *            See https://raw.githubusercontent.com/jakearchibald/es6-promise/master/LICENSE
- * @version   2.3.0
+ * @version   3.0.2
  */
 
 `cat .tmp/bundle.min.js`
