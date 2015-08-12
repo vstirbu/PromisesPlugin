@@ -17,7 +17,7 @@
   </engines>
 
   <js-module src="www/promise.js" name="Promise">
-    <clobbers target="Promise" />
+    <runs />
   </js-module>
 
   <platform name="ios"></platform>

@@ -15,5 +15,4 @@ cat > www/promise.js << EOL
 
 `cat .tmp/bundle.min.js`
 
-module.exports = Promise;
 EOL
