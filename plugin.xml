@@ -22,4 +22,5 @@
 
   <platform name="ios"></platform>
   <platform name="android"></platform>
+  <platform name="windows"></platform>
 </plugin>
