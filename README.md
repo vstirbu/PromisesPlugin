@@ -13,10 +13,7 @@ This plugin attempts to fix this situation by providing a Promise polyfill so th
 Configure your plugin's plugin.xml by adding this dependency:
 
 ```
-<dependency
-  id="es6-promise-plugin"
-  url="https://github.com/vstirbu/PromisesPlugin.git">
-</dependency>
+<dependency id="es6-promise-plugin" version="4.1.0" />
 ```
 
 Cordova CLI takes care to install PromisesPlugin automatically:
