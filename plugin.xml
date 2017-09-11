@@ -23,4 +23,5 @@
   <platform name="ios"></platform>
   <platform name="android"></platform>
   <platform name="windows"></platform>
+  <platform name="browser"></platform>
 </plugin>
