@@ -1,12 +1,12 @@
 {
   "name": "es6-promise-plugin",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "description": "ES6-Promises polyfill for Cordova/PhoneGap",
   "main": "www/promise.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "es6-promise": "^4.1.0"
+    "browserify": "^14.4.0",
+    "es6-promise": "^4.1.1"
   },
   "scripts": {
     "build": "./build"
